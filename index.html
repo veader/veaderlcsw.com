@@ -12,7 +12,6 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!--         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Rozha+One&display=swap" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 
         <style type="text/css">
@@ -20,12 +19,9 @@
                 --brand-color-1: #EBAC65;
                 --brand-color-2: #414141;
             }
+
             body {
                 line-height: 1.8em;
-/*
-                font-family: "DM Serif Text", serif;
-                font-weight: 40;
- */
             }
 
             p {
@@ -35,7 +31,6 @@
 
             h1, h2, h3, h4 {
                 font-family: "DM Serif Text", serif;
-/*                 font-family: "Rozha One", serif; */
             }
 
             .navbar-collapse, .navbar-toggler {
@@ -79,16 +74,14 @@
                 padding-bottom: 20pt;
             }
 
-            .providerplatform {
-                border-radius: 25px;
-                border: 1px solid #CBCBCB;
-                padding: 20px;
-                margin-bottom: 20pt;
+            .card-header>h4 {
+                padding-top: 4pt;
             }
 
             a {
                 color: var(--brand-color-1);
             }
+
             a:hover {
                 color: var(--brand-color-2);
             }
@@ -105,7 +98,7 @@
 
             #betterhelplogo, #growtherapylogo {
                 max-width: 160pt;
-                padding-bottom: 8pt;
+                padding-top: 4pt;
                 margin: 0 auto;
                 display: block;
             }
@@ -120,7 +113,6 @@
                     float: none;
                 }
             }
-
 
             @media only screen and (min-width: 768px) {
                 .logo {
@@ -149,11 +141,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#payment">Payment</a>
                     </li>
-<!--
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
- -->
                 </ul>
             </div>
         </nav>
@@ -260,62 +247,65 @@
                         $100.
                     </p>
 
-                    <div class="providerplatform">
-                        <p>
+                    <div class="card">
+                        <div class="card-header">
                             <a href="https://growtherapy.com/provider/nlcwu01pjodf/danielle-veader?state=Georgia&address=GA,+USA&name=danielle+veader&insuranceType=AvMed&setting=Virtual&appointmentType=intake&typeOfCare=Talk+therapy">
-                                <img src="images/growtherapy_logo.png" alt="Grow Therapy Logo" id="growtherapylogo">
+                                <img src="images/growtherapy_logo.png" alt="Grow Therapy Logo" id="growtherapylogo" class="card-img-top">
                             </a>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                I accept insurance and private pay through my partnership with
+                                <a href="https://growtherapy.com/provider/nlcwu01pjodf/danielle-veader?state=Georgia&address=GA,+USA&name=danielle+veader&insuranceType=AvMed&setting=Virtual&appointmentType=intake&typeOfCare=Talk+therapy">Grow Therapy</a>.
+                                <br /><br />
 
-                            I accept insurance and private pay through my partnership with
-                            <a href="https://growtherapy.com/provider/nlcwu01pjodf/danielle-veader?state=Georgia&address=GA,+USA&name=danielle+veader&insuranceType=AvMed&setting=Virtual&appointmentType=intake&typeOfCare=Talk+therapy">Grow Therapy</a>.
-                            <br /><br />
+                                I currently accept:
 
-                            I currently accept:
+                                <ul>
+                                    <li>Aetna</li>
+                                    <li>Anthem (<em>which can include BCBS</em>)</li>
+                                    <li>AvMed</li>
+                                    <li>Cigna and Evernorth</li>
+                                    <li>EAP: Cigna</li>
+                                    <li>EAP: UnitedHealthcare/Optum</li>
+                                    <li>Golden Rule</li>
+                                    <li>Harvard Pilgrim/UH/Optum</li>
+                                    <li>Kaiser Georgia</li>
+                                    <li>Optum</li>
+                                    <li>Oscar</li>
+                                    <li>Oxford</li>
+                                    <li>Surest (<em>formerly Bind</em>)</li>
+                                    <li>United Healthcare</li>
+                                </ul>
 
-                            <ul>
-                                <li>Aetna</li>
-                                <li>Anthem (Which can include BCBS)</li>
-                                <li>AvMed</li>
-                                <li>Cigna and Evernorth</li>
-                                <li>EAP: Cigna</li>
-                                <li>EAP: UnitedHealthcare/Optum</li>
-                                <li>Golden Rule</li>
-                                <li>Harvard Pilgrim/UH/Optum</li>
-                                <li>Kaiser Georgia</li>
-                                <li>Optum</li>
-                                <li>Oscar</li>
-                                <li>Oxford</li>
-                                <li>Surest (formerly Bind)</li>
-                                <li>United Healthcare</li>
-                            </ul>
-
-                            <br />
-                            <a href="https://growtherapy.com/provider/nlcwu01pjodf/danielle-veader?state=Georgia&address=GA,+USA&name=danielle+veader&insuranceType=AvMed&setting=Virtual&appointmentType=intake&typeOfCare=Talk+therapy" class="btn btn-primary" role="button">
-                                Find me on Grow Therapy
-                            </a>
-                        </p>
+                                <br />
+                                <a href="https://growtherapy.com/provider/nlcwu01pjodf/danielle-veader?state=Georgia&address=GA,+USA&name=danielle+veader&insuranceType=AvMed&setting=Virtual&appointmentType=intake&typeOfCare=Talk+therapy" class="btn btn-primary" role="button">
+                                    Find me on Grow Therapy
+                                </a>
+                            </p>
+                        </div>
                     </div>
+                    <br />
 
-                    <div class="providerplatform">
-                        <p>
+                    <div class="card">
+                        <div class="card-header">
                             <h4>BetterHelp</h4>
-<!--
-                            <a href="https://www.betterhelp.com/danielle-veader/">
-                                <img src="images/betterhelp_logo.png" alt="BetterHelp Logo" id="betterhelplogo">
-                            </a>
- -->
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                <a href="https://www.betterhelp.com/danielle-veader/">BetterHelp</a>
+                                is a membership model of care and when I see people through
+                                BetterHelp, it is by them using their membership benefits.
+                                BetterHelp does not accept insurance. If you wish to see me
+                                through BetterHelp, please request me by name when signing up.
 
-                            <a href="https://www.betterhelp.com/danielle-veader/">BetterHelp</a>
-                            is a membership model of care and when I see people through
-                            BetterHelp, it is by them using their membership benefits.
-                            BetterHelp does not accept insurance. If you wish to see me
-                            through BetterHelp, please request me by name when signing up.
+                                <br /><br />
+                                <a href="https://www.betterhelp.com/danielle-veader/" class="btn btn-primary" role="button">
+                                    Find me on BetterHelp
+                                </a>
+                            </p>
 
-                            <br /><br />
-                            <a href="https://www.betterhelp.com/danielle-veader/" class="btn btn-primary" role="button">
-                                Find me on BetterHelp
-                            </a>
-                        </p>
+                        </div>
                     </div>
 
                 </div>
